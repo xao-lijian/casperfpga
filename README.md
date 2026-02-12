@@ -151,3 +151,21 @@ Fork [this](https://github.com/casper-astro/casperfpga) repo, add your changes a
 
 ## More documentation ##
 A link to `casperfpga` documentation on Read the Docs can be found [here](https://casper-toolflow.readthedocs.io/projects/casperfpga/en/latest/). The documentation there includes the information above, casperfpga sourcecode and links to other CASPER related documentation that may be of interest to users/contributers. 
+
+## for ubuntu24.04  2026.2.12
+
+
+
+virtualenv -p /usr/bin/python3.12 /home/uwb/env312/
+
+source env312/bin/activate
+
+apt install python3-tk
+
+pip install matplotlib 
+
+
+
+pip install -r requirements.txt
+
+pip install .
