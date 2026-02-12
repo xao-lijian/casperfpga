@@ -1796,10 +1796,11 @@ class RFDC(object):
 
     t = self.parent.transport
     self.mts_report = []
-    args = (tile_mask,)
+    args = (tile_mask,target_latency)
     reply, informs = t.katcprequest(name='rfdc-run-mts', request_timeout=t._timeout, request_args=args)
     for i in informs:
       self.mts_report.append(i)
+      print(i.arguments[0].decode())
 
     return True
 
