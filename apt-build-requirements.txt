@@ -1,0 +1,7 @@
+# Build requirements for the C extension (progska)
+# Ubuntu 24.04 (Python 3.12)
+
+build-essential
+python3-dev
+# or explicitly:
+# python3.12-dev

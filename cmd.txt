@@ -1,0 +1,16 @@
+for ubuntu24.04  2026.2.12
+
+
+virtualenv -p /usr/bin/python3.12 /home/uwb/env312/
+
+source env312/bin/activate
+
+apt install python3-tk
+
+pip install matplotlib astropy
+
+
+
+pip install -r requirements.txt
+
+pip install .

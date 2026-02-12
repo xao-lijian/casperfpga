@@ -1,0 +1,9 @@
+include README.md
+include LICENSE.txt
+include requirements.txt
+include pyproject.toml
+
+recursive-include progska *.c *.h Makefile
+recursive-include src *.txt
+recursive-include scripts *
+recursive-include debug *.py

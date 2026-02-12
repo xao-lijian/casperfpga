@@ -1,0 +1,15 @@
+# Runtime dependencies for casperfpga (Python 3.12 / Ubuntu 24.04)
+
+numpy
+katcp>=0.9.3
+tornado
+redis
+tftpy
+progressbar2
+requests
+crcmod
+setuptools        ==            73.0.0
+backports.ssl_match_hostname == 3.7.0.1
+wheel
+# Optional (interactive)
+ipython
